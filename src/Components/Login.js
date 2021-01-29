@@ -4,10 +4,6 @@ import Main from './Main'
 
 export class Login extends Component {
 
-  onclicked () {
-    <h1>Hi</h1>
-  }
-
   render() {
     return (
       <div>
@@ -25,7 +21,7 @@ export class Login extends Component {
             <button className = "user">login</button>
             <br></br> <br></br>
             <p>New user? Sign up here</p>
-            <button onClick = {this.onclicked}>Sign Up</button>
+            <button>Sign Up</button>
           </form>
           </center>
       </div>
