@@ -10,9 +10,11 @@ export class Login extends Component {
     return (
       <body className = "body1">
         <center>
+          <br></br>
+          <br></br>
           <body className = "body">
             <center>
-              <h1 className = "heading">Welcome to BookBase</h1>
+              <h1 className = "heading">Welcome to BookBoard</h1>
               <form>
                 <label className = "user">Username</label>
                 <t></t> <t></t>
